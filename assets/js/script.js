@@ -17,7 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function runGame() {
-
+    // Generates 2 Random Numbers betwwen 1 and 24
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
